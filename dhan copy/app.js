@@ -88,7 +88,7 @@ app.post('/', function(req,res){
 	var sms = req.body.Body.trim();
 	var number = req.body.From.trim();
 	
-	var client = require('/Users/abheekbasu/desktop/workspace/pennapps2016/dhan/routes/twilio-node/lib')('AC4ffa84891105bb6dfaf2a951c9118c79', '554fb6f74209ea8c50868db95966c8ab');
+	var client = require('/Users/abheekbasu/desktop/workspace/pennapps2016/dhan/routes/twilio-node/lib')('xxxxxxxxx', 'xxxxxxxxx');
 	//labourer
 	
 	if(sms.indexOf("subscribe") != -1){
